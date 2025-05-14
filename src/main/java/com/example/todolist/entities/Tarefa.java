@@ -24,6 +24,8 @@ public class Tarefa{
 
     private boolean concluida;
 
+    public Tarefa() {
+    }
 
     public Tarefa(String descricao, String titulo) {
         this.concluida = false;
